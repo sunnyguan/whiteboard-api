@@ -31,3 +31,28 @@ def addStory():
         json.dump(stories_data, f)
         print("Stories updated!")
     return jsonify(stories_data)
+
+
+@app.route('/')
+def uiStory():
+    return """<html>
+    <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Add a story!</h1>
+        <form method="GET" action = "/addStory">
+        <div class="form-group">
+            <label for="text">Text</label>
+            <input id="text" type="radio" name="type" value="text" />
+            <br>
+            <label for="image">Image</label>
+            <input id="image" type="radio" name="type" value="image" />
+            <br>
+            <input type="text" name="data" placeholder="link or text content" />
+        </div>
+        <input class="btn btn-primary" type="submit" value="submit">
+        </form>
+
+    </body>
+    </html>"""
