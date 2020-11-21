@@ -46,8 +46,8 @@ def uiStory():
             <label for="text">Text</label>
             <input id="text" type="radio" name="type" value="text" />
             <br>
-            <label for="image">Image</label>
-            <input id="image" type="radio" name="type" value="image" />
+            <label for="photo">Photo</label>
+            <input id="photo" type="radio" name="type" value="photo" />
             <br>
             <input type="text" name="data" placeholder="link or text content" />
         </div>
