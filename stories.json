@@ -42,29 +42,29 @@
         ]
     ],
     [
-        "gorillaz",
-        "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/2.jpg",
-        "Gorillaz",
+        "page",
+        "https://i2.wp.com/cs.utdallas.edu/wp-content/uploads/2015/02/Page_Ivor.jpg?fit=750%2C750",
+        "Dr. Page",
         "",
         1605934446,
         [
             [
-                "gorillaz-1",
-                "video",
-                0,
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.mp4",
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/4.jpg",
+                "page-1",
+                "photo",
+                3,
+                "so how is everyone doing?",
+                false,
                 "",
                 false,
                 false,
                 1605934116
             ],
             [
-                "gorillaz-2",
+                "page-2",
                 "photo",
                 3,
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg",
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/5.jpg",
+                "adios!",
+                false,
                 "",
                 false,
                 false,
@@ -73,49 +73,29 @@
         ]
     ],
     [
-        "ladygaga",
-        "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/3.jpg",
-        "Lady Gaga",
+        "haas",
+        "https://i0.wp.com/cs.utdallas.edu/wp-content/uploads/2015/02/Haas_Zygmunt.jpg?fit=750%2C750",
+        "Professor Haas",
         "",
         1605934436,
         [
             [
-                "ladygaga-1",
+                "haas-1",
                 "photo",
-                5,
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/6.jpg",
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/6.jpg",
+                3,
+                "I have noticed that a lot of you do not watch the lectures...",
+                false,
                 "",
                 false,
                 false,
                 1605934116
             ],
             [
-                "ladygaga-2",
+                "haas-2",
                 "photo",
                 3,
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/7.jpg",
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/7.jpg",
-                "http://ladygaga.com",
+                "something something statistics",
                 false,
-                false,
-                1605934116
-            ]
-        ]
-    ],
-    [
-        "starboy",
-        "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/4.jpg",
-        "The Weeknd",
-        "",
-        1605934426,
-        [
-            [
-                "starboy-1",
-                "photo",
-                5,
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/8.jpg",
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/8.jpg",
                 "",
                 false,
                 false,
@@ -124,18 +104,38 @@
         ]
     ],
     [
-        "riversquomo",
-        "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/users/5.jpg",
-        "Rivers Cuomo",
+        "temoc",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Temoc_2016.jpg/330px-Temoc_2016.jpg",
+        "Temoc",
+        "",
+        1605934426,
+        [
+            [
+                "temoc-1",
+                "photo",
+                3,
+                "WHOOSH",
+                false,
+                "",
+                false,
+                false,
+                1605934116
+            ]
+        ]
+    ],
+    [
+        "enarc",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Crane_machine_slewing_platform.svg/330px-Crane_machine_slewing_platform.svg.png",
+        "Crane",
         "",
         1605934416,
         [
             [
-                "riverscuomo",
+                "crane-1",
                 "photo",
-                10,
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/9.jpg",
-                "https://raw.githubusercontent.com/ramon82/assets/master/zuck.js/stories/9.jpg",
+                3,
+                "**crane noises**",
+                false,
                 "",
                 false,
                 false,
