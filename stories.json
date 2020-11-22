@@ -16,6 +16,12 @@
                 "length": 3,
                 "src": "https://preview.redd.it/8hoq8mjay9341.jpg?width=640&crop=smart&auto=webp&s=07da6c3b29220894c4263121b5f5a5032a7593af",
                 "time": 1605930116
+            },
+            {
+                "type": "text",
+                "length": 6,
+                "src": "this is 6 seconds long",
+                "time": 1606008577
             }
         ]
     },

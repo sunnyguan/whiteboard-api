@@ -39,20 +39,26 @@ def uiStory():
     <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     </head>
-    <body>
-        <h1>Add a story!</h1>
-        <form method="GET" action = "/addStory">
-        <div class="form-group">
-            <label for="text">Text</label>
-            <input id="text" type="radio" name="type" value="text" />
-            <br>
-            <label for="photo">Photo</label>
-            <input id="photo" type="radio" name="type" value="photo" />
-            <br>
-            <input type="text" name="data" placeholder="link or text content" />
+    <body style="display: flex; width: 100%; justify-content: center">
+        <div style="margin: auto">
+            <h1>Add a story!</h1>
+            <form method="GET" action = "/addStory">
+            <div class="form-group">
+                <input id="text" type="radio" name="type" value="text" />
+                <label for="text">Text</label>
+                <input id="photo" type="radio" name="type" value="photo" />
+                <label for="photo">Photo</label>
+            </div>
+            <div class="form-group">
+                <label for="data">Link/Text: </label>
+                <input type="text" id="data" name="data" placeholder="link or text content" /><br>
+            </div>
+            <div class="form-group">
+                <label for="duration">Duration: </label>
+                <input type="text" id="duration" name="duration" value="3" />
+            </div>
+            <input class="btn btn-primary" type="submit" value="submit">
+            </form>
         </div>
-        <input class="btn btn-primary" type="submit" value="submit">
-        </form>
-
     </body>
     </html>"""
