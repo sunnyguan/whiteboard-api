@@ -20,13 +20,14 @@ def addStory():
     story_type = request.args.get('type')
     story_len = request.args.get('duration', default = 3, type = int)
     story_text = request.args.get('data')
+    story_cat = request.args.get('cat', default = 0, type = int)
     newStory = {
         "type": story_type,
         "length": story_len,
         "src": story_text,
         "time": int(time.time())
     }
-    stories_data[0]["items"].append(newStory)
+    stories_data[story_cat]["items"].append(newStory)
     with open('stories.json', 'w') as f:
         json.dump(stories_data, f)
         print("Stories updated!")
@@ -56,6 +57,17 @@ def uiStory():
             <div class="form-group">
                 <label for="duration">Duration: </label>
                 <input type="text" id="duration" name="duration" value="3" />
+            </div>
+            <div class="form-group">
+                <label for="cat">Choose a category:</label>
+                <select name="cat" id="cat">
+                    <option value="0">Temoc</option>
+                    <option value="1">Stolen Memes</option>
+                    <option value="2">Tobor</option>
+                    <option value="3">Dr. Page</option>
+                    <option value="4">Prof. Haas</option>
+                    <option value="5">Enarc</option>
+                </select>
             </div>
             <input class="btn btn-primary" type="submit" value="submit">
             </form>
